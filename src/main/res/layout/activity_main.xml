@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="301dp"
+            android:layout_gravity="center"
+            android:src="@drawable/app_icon" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif-black"
+            android:paddingTop="20dp"
+            android:text="@string/select_unit_of_conversion"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/currency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="16dp"
+            android:text="@string/currency_converter"
+            android:textSize="20sp"
+            android:background="@drawable/button_background" />
+
+        <Button
+            android:id="@+id/bmi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="16dp"
+            android:text="@string/bmi_calculator"
+            android:textSize="20sp"
+            android:background="@drawable/button_background" />
+
+        <Button
+            android:id="@+id/length"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="16dp"
+            android:text="@string/length"
+            android:textSize="20sp"
+            android:background="@drawable/button_background" />
+
+        <Button
+            android:id="@+id/mass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="16dp"
+            android:text="@string/mass"
+            android:textSize="20sp"
+            android:background="@drawable/button_background" />
+
+        <Button
+            android:id="@+id/capacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="16dp"
+            android:text="@string/volume"
+            android:textSize="20sp"
+            android:background="@drawable/button_background" />
+
+        <Button
+            android:id="@+id/temperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="16dp"
+            android:text="@string/temperature"
+            android:textSize="20sp"
+            android:background="@drawable/button_background" />
+
+        <Button
+            android:id="@+id/energy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="16dp"
+            android:text="@string/energy"
+            android:textSize="20sp"
+            android:background="@drawable/button_background" />
+
+        <Button
+            android:id="@+id/speed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="16dp"
+            android:text="@string/speed"
+            android:textSize="20sp"
+            android:background="@drawable/button_background" />
+
+        <Button
+            android:id="@+id/area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="16dp"
+            android:text="@string/area"
+            android:textSize="20sp"
+            android:background="@drawable/button_background" />
+
+        <Button
+            android:id="@+id/pressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="16dp"
+            android:text="@string/pressure"
+            android:textSize="20sp"
+            android:background="@drawable/button_background" />
+
+    </LinearLayout>
+</ScrollView>
